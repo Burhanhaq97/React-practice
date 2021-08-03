@@ -1,0 +1,39 @@
+@media screen and (max-width: 700px) {
+  header {
+    padding: 0 5%;
+  }
+
+  .logo {
+    flex: 100%;
+    text-align: center;
+  }
+  .logo img {
+    width: 250px;
+    height: 300px;
+    margin-top: -120px;
+  }
+  .nav_link {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .nav_link a {
+    margin-left: 30px;
+    font-weight: 500;
+  }
+  .button .btn {
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0px;
+  }
+  section h1 {
+    font-size: 30px;
+  }
+
+  .search_bar input {
+    width: 270px;
+  }
+  .arrow {
+    margin-top: 10%;
+  }
+}
